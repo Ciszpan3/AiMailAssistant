@@ -1,0 +1,39 @@
+# Lokalne środowiska Pythona
+.venv/
+venv/
+env/
+
+# Pliki generowane przez Pythona i testy
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Dane lokalne aplikacji — nigdy nie powinny trafić do repozytorium
+.env
+.env.*
+!.env.example
+settings.ini
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+*.log
+cache/
+backups/
+drafts/
+
+# Artefakty budowania i edytorów
+build/
+dist/
+*.egg-info/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
